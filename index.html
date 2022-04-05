@@ -12,11 +12,68 @@
 </head>
 <body>
     <div class="left">
-        <p>Social media shared today, tomorrow or by location</p>
+        <p>Social media shared today, tomorrow <br/>or by location</p>
         <img src="assets/img/phones.png" alt="Phones ilustration">
     </div>
     <div class="right">
-        a
+        <img src="assets/img/logo.png" alt="Logo">
+        <div class="title">
+            <h1>Create account</h1>
+            <h2>For business, band or celebrity</h2>
+        </div>
+        <form action="/" method="POST" class="formulario">
+            <div class="input-group">
+                <div class="input-item">
+                    <div class="label-item">
+                        <label  for="">First name</label>
+                        <p class="error-text">First name cannot be empty.</p>
+                    </div>
+                    <input type="text" class="first-name">
+                </div>
+                <div class="input-item">
+                    <div class="label-item">
+                        <label for="">Last name</label>
+                        <p class="error-text">Last name cannot be empty.</p>
+                    </div>
+                    <input type="text" class="last-name">
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-item">
+                    <div class="label-item">
+                        <label for="">CPF</label>
+                        <p class="error-text">CPF cannot be empty.</p>
+                    </div>
+                    <input type="number" class="cpf ">
+                </div>
+                <div class="input-item">
+                    <div class="label-item">
+                        <label for="">Date of birth</label>
+                        <p class="error-text">Date of birth cannot be empty.</p>
+                    </div>
+                    <input type="date" class="date-of-birth ">
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-item">
+                    <div class="label-item">
+                        <label for="">Password</label>
+                        <p class="error-text">Password cannot be empty.</p>
+                    </div>
+                    <input type="password" class="password ">
+                </div>
+                <div class="input-item">
+                    <div class="label-item">
+                        <label for="">Confirm password</label>
+                        <p class="error-text">Passwords don't match.</p>
+                    </div>
+                    <input type="password" class="confirm-password">
+                </div>
+            </div>
+            <button type="submit">Create account</button>
+        </form>
     </div>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/validaCPF.js"></script>
 </body>
 </html>
